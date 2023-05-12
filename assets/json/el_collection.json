@@ -1,0 +1,27 @@
+[
+    {"EL_id":0, "EL_type":"title", "EL_tag":"互动范围"}, 
+    {"EL_id":1, "EL_type":"select", "EL_tag":"单点"}, 
+    {"EL_id":2, "EL_type":"select", "EL_tag":"部分"},  
+    {"EL_id":3, "EL_type":"select", "EL_tag":"全部"}, 
+
+    {"EL_id":4, "EL_type":"title", "EL_tag":"使用门槛"}, 
+    {"EL_id":5, "EL_type":"select", "EL_tag":"新手可用"}, 
+    {"EL_id":6, "EL_type":"select", "EL_tag":"适中"},  
+    {"EL_id":7, "EL_type":"select", "EL_tag":"仅限专家"}, 
+
+    {"EL_id":0, "EL_type":"title", "EL_tag":"主导权"}, 
+    {"EL_id":1, "EL_type":"select", "EL_tag":"AI驱动"}, 
+    {"EL_id":2, "EL_type":"select", "EL_tag":"适中"},  
+    {"EL_id":3, "EL_type":"select", "EL_tag":"设计师驱动"}, 
+
+    {"EL_id":4, "EL_type":"title", "EL_tag":"敏捷度"}, 
+    {"EL_id":5, "EL_type":"select", "EL_tag":"一锤定音"}, 
+    {"EL_id":6, "EL_type":"select", "EL_tag":"适中"},  
+    {"EL_id":7, "EL_type":"select", "EL_tag":"多轮渐进"}, 
+
+    {"EL_id":0, "EL_type":"title", "EL_tag":"显现度"}, 
+    {"EL_id":1, "EL_type":"select", "EL_tag":"隐形"}, 
+    {"EL_id":2, "EL_type":"select", "EL_tag":"适中"},  
+    {"EL_id":3, "EL_type":"select", "EL_tag":"显性"}
+]
+    
