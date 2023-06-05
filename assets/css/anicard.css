@@ -513,7 +513,7 @@ footer .footer-text {
 
 @media (max-width: 852.5px) {
   .navbar-container .nav-head {
-    background: transparent linear-gradient(90deg, #DEF5CC 0%, #ECF7DE 100%);
+    /* background: transparent linear-gradient(90deg, #DEF5CC 0%, #ECF7DE 100%); */
     /* background-image: url(../image/banner-mobile.png); */
     background-position: bottom right;
     background-size: auto 100%;
@@ -553,6 +553,27 @@ footer .footer-text {
 @media (max-width: 576px) {
   .navbar-tab {
     margin: 0 1rem;
+  }
+}
+
+.navbar-switch {
+  margin: 0 3.25rem;
+  min-height: 42px;
+  max-width: 524px;
+}
+
+@media (min-width: 852.5px) {
+  .navbar-switch {
+    display: flex;
+    margin: 0 3.25rem;
+    top: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-switch {
+    margin: 0 1rem;
+    top: 11%;
   }
 }
 
@@ -1122,12 +1143,24 @@ footer .footer-text {
   transition: opacity 0.2s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .display-reminder, .display-reminder-story  {
     margin: 16px 0;
     padding: 0 1rem;
     background: #FFFFFF;
     position: relative;
+  }
+} */
+
+@media (max-width: 576px) {
+  .display-reminder, .display-reminder-story  {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 137px;
+    z-index: 400;
+    opacity: 1;
+    transition: opacity 0.2s cubic-bezier(0.28, 0.11, 0.32, 1);
   }
 }
 
@@ -2271,6 +2304,13 @@ footer .footer-text {
 .downloads-deck {
   margin-left: 10rem;
   margin-right: 10rem;
+}
+
+@media (max-width: 576px) {
+  .downloads-deck {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 }
 
 .downloads-card {
